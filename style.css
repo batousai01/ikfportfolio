@@ -754,6 +754,14 @@
 
                                               /*TABLET REPONSIVE*/
 
+@media screen and (max-width:1920px) {
+
+  .container { width: 50%; }
+  h1.drama-center2 { right: 8%; }
+  h1.drama-center { right: 8%; }
+}
+
+
 @media screen and (max-width:1024px) {
 
 
