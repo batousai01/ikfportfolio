@@ -125,7 +125,7 @@
                                       .logo {
 
                                         font-family: 'Londrina Solid', cursive;
-                                        font-size: 23px;
+                                        font-size: 250%;
                                         height: 100px;
                                         width: auto;
                                         right: 95%;
@@ -281,7 +281,7 @@
                                       }
 
                                       .aboutmain {
-                                        font-size: 40px;
+                                        font-size: 60px;
                                         color: #B22222;
                                       }
 
@@ -308,7 +308,7 @@
                                       p {
                                       	/*font-family: 'Cinzel Decorative', cursive;*/
                                           bottom: 50%;
-                                          font-size: 18px !important;
+                                          font-size: 20px !important;
                                           margin: 10px !important;
                                           font-family: 'Cormorant Garamond', serif !important;
                                       }
