@@ -43,8 +43,8 @@
                                       header {
 
                                       	
-                                      	height: 800px;
-                                      	width: 1300px;
+                                      	height: 100vh;
+                                      	width: auto;
                                       	background-image: url(images2/main-background.jpg);
                                       	background-position: center;
                                       	background-size: cover;
