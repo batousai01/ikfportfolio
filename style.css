@@ -198,7 +198,7 @@
                                         border-left: 0.5px solid #B22222;
                                         height: 100%;
                                         position: fixed;
-                                        left: 97%;
+                                        left: 97.5%;
                                         margin-left: -3px;
                                         top: 0;
 
@@ -223,7 +223,7 @@
                                         border-left: 0.5px solid #B22222;
                                         height: 100%;
                                         position: fixed;
-                                        left: 96%;
+                                        left: 94.5%;
                                         margin-left: -3px;
                                         top: 0;
 
@@ -351,37 +351,34 @@
                                       
 
 
+                                      
+
                                       .drama-center2 {
-                                        font-size: 230%;
-                                        height: 100%;
-                                        width: auto;
-                                        position: absolute;
-                                        top: 45%;
-                                        right: 5%;
+                                        font-size: 450%;
                                         text-shadow: 2px 2px 4px #000000;
+                                        margin: 0;
 
 
 
                                       }
 
-                                      .bg2container {
-                                        width: 90%;
-                                        height: 100%;
-                                        position:relative;
+                                      .bg3 , .bg2 { display: flex;
+                                              align-items: center;
+                                              justify-content: center  
+                                            }
 
-                                      }
 
+
+
+                                      
                                       .red-solve {
                                         color: #B22222;
                                       }
 
                                       .drama-center {
-                                        font-size: 550%;
+                                        font-size: 450%;
                                         height: 100%;
-                                        width: auto;
-                                        position: absolute;
-                                        top: 45%;
-                                        right: 5%;
+                                        margin: 0;
                                         text-shadow: 2px 2px 4px #000000;
 
 
@@ -620,11 +617,11 @@
                                         border-radius: 20px;
                                         background-color: black;
                                         padding: 20px;
-                                        max-width: 70%;
+                                        width: 35%;
                                         left:50%;
                                         padding: 100px;
                                         height: auto;
-                                        margin: 100px;
+                                        margin: auto;
                                         margin-bottom: 0px;
                                         padding-bottom: 0px;
                                         text-align: center;
@@ -699,8 +696,8 @@
                                         max-height: 100%;
                                         position: relative;
                                         display: block;
-                                      }*/
-                                              /*
+                                      }*
+ /                                             /*
                                               .red {
                                                 width: 95.5%;
                                                 background-color: #B22222;
@@ -754,12 +751,12 @@
 
                                               /*TABLET REPONSIVE*/
 
-@media screen and (max-width:1920px) {
+/*@media screen and (max-width:1920px) {
 
   .container { width: 50%; }
   h1.drama-center2 { right: 8%; }
   h1.drama-center { right: 8%; }
-}
+}*/
 
 
 @media screen and (max-width:1024px) {
@@ -806,7 +803,6 @@
   div.container {width: 80%; margin: 0; padding: 10%;}
 
   .bg2container { text-align: center; width: 100%; position: relative; }
-  .drama-center { height: auto; position: absolute; left: 10%; }
 
   .line ,.line3, .nav1, .nav2, .nav3 { display: none; }
 
