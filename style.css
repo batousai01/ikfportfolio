@@ -4,12 +4,19 @@
                                         color: #DCDCDC;
                                       	padding: 0px;                                      	
                                       	margin: 0;
-                                        font-family: 'Abril Fatface', cursive;
 
+                                      }
+
+                                      p , h1 ,h2 ,h3 ,h4 ,li ,a ,button , input {
+
+                                      font-family: 'Playfair Display', serif !important;
 
 
 
                                       }
+
+                                      
+                                      
 
                                       html	{
                                       	scroll-behavior: smooth;
@@ -22,6 +29,7 @@
                                           background-color: black;
                                           margin: 0;
                                           height: auto;
+                                          -webkit-font-smoothing:subpixel-antialiased !important;
 
 
                                       }
@@ -310,7 +318,6 @@
                                           bottom: 50%;
                                           font-size: 20px !important;
                                           margin: 10px !important;
-                                          font-family: 'Cormorant Garamond', serif !important;
                                       }
 
                                       .container::after {
@@ -432,7 +439,7 @@
 
                                       .project {
                                       	transition: transform 1.5s;
-                                        height: auto;
+                                        height: 100%;
                                         width: 100%;
                                         filter: grayscale(100%);
                                         border-radius: 2%;
@@ -462,7 +469,7 @@
 
                                         text-align: center;
                                         position: absolute;
-                                        text-shadow: 2px 2px 4px #000000
+                                        text-shadow: 2px 2px 4px #000000;
                                       }
 
                                       .small {
@@ -481,7 +488,7 @@
                                       }
 
                                       .small::before {
-                                        content: "Site name";
+                                        content: "";
                                         display: block;
                                         font-size: 30px;
                                       }
@@ -681,7 +688,6 @@
 
                                       .containerfooter {
                                         font-size: 10px !important;
-                                        font-family: 'Cormorant Garamond', serif !important;
 
 
                                       }
@@ -857,10 +863,11 @@ text-shadow: #000000;
 
 .bar { margin: 0; padding: 0; bottom: 30px; height: 30px; }
 
-
-
 	
 }
+
+i { right: 10px; top: 70px; position: relative; }
+
 
                                                       /*MOBILE RESPONSIVE*/
 
@@ -931,7 +938,8 @@ text-shadow: #000000;
 .logo {left: 3%; position: absolute;}
 div.container {width: 80%; margin: 0; padding: 10%;}
 .socialmedia-icons , .pointdown {display: none;}
-footer { margin: 10% !important; margin-right: 0; }
+footer { padding: 5% 0% 10% !important; margin-right: 0; margin: 0% 0% 10%; }
+i { right: 10px; top: 70px; position: relative; }
 
 
 div.heronav { 
@@ -963,7 +971,7 @@ text-shadow: #000000;
 
 
 .page2{ display: grid; grid-template-columns: 1fr; height: auto; margin: 5PX; margin-bottom: 20px;}
-.project { height: 300px; width: 100%; margin: 0; }
+.project { height: 25vh ; width: 100%; margin: 0; overflow: hidden;}
 div.project-tittle { padding: 100px 0px 100px 0px; }
 
 
