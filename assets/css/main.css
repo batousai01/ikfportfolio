@@ -2460,6 +2460,7 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		
 	}
 
 		input[type="submit"]:hover,
@@ -2607,7 +2608,7 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 35%;
-		
+
 
 	}
 
